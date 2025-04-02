@@ -1,0 +1,23 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.nodePath": "./node_modules/eslint",
+  "eslint.packageManager": "pnpm",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  // VS Code has built-in CSS validation which may display errors when using Tailwind-specific syntax, such as @apply. You can disable this with the css.validate setting
+  "css.validate": false,
+  // By default VS Code will not trigger completions when editing "string" content, for example within JSX attribute values. Updating the editor.quickSuggestions setting may improve your experience:
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "javascript"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
+

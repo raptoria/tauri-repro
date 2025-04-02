@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041E498F992EE4E24567DF2E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26FC436195DB003D8867C86F /* main.mm */; };
+		155973B5B3AE925276BDF3DF /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 154FA0E17590AE8484D0D2C3 /* assets */; };
+		1A7625A3EFD057372D8AB57B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33745E3B220C9E433D300435 /* QuartzCore.framework */; };
+		3C88A96FE772EC896DE0B1EA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BCD6BF1F5B8BD31460DC55 /* Security.framework */; };
+		5EB8874402040909E5CD7A8D /* libapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7535B3354D01CE567A6650 /* libapp.a */; };
+		6B9C24B532BFA66CAB4CB770 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BDDF2055A4AA8182E819DC /* WebKit.framework */; };
+		7279789550394DF0A76CF297 /* libapp.a in Resources */ = {isa = PBXBuildFile; fileRef = 8164D5184CC9E06B57747560 /* libapp.a */; };
+		930D6657BC2FB2EF482059F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE46392322E4E582FF17FB /* LaunchScreen.storyboard */; };
+		A91E65ECFB7ADCCA80DD4A3A /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5335A3FAA742A949EE54BFC6 /* Metal.framework */; };
+		BCF548301A62EE329DFFF430 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74789882F21CC89E2104D255 /* UIKit.framework */; };
+		D0D1E7577A1AD3F4006A6C92 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE2F7C81F1B099125B7C33E /* MetalKit.framework */; };
+		E5836D06E58519A483DDC258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA716AA9987F3CEAEAE2992 /* Assets.xcassets */; };
+		EFDA82F824360AD3B559D3B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFD29D3F99F01689B9E320 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07BDDF2055A4AA8182E819DC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0AEE46392322E4E582FF17FB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		154FA0E17590AE8484D0D2C3 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
+		1B7DCBE452DC59D1E6E788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		26FC436195DB003D8867C86F /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		33745E3B220C9E433D300435 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		382C7B3BC4643B8EEC242C9E /* lib.rs */ = {isa = PBXFileReference; path = lib.rs; sourceTree = "<group>"; };
+		3C7535B3354D01CE567A6650 /* libapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libapp.a; sourceTree = "<group>"; };
+		4DE2F7C81F1B099125B7C33E /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		5335A3FAA742A949EE54BFC6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		5A85583B8FDD90DE19E23CC9 /* bindings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
+		61C94B0AF790E0226AC7CE29 /* main.rs */ = {isa = PBXFileReference; path = main.rs; sourceTree = "<group>"; };
+		74789882F21CC89E2104D255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75BCD6BF1F5B8BD31460DC55 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8164D5184CC9E06B57747560 /* libapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libapp.a; sourceTree = "<group>"; };
+		96E11D0A26A7243DADC0DDE9 /* duxmedical_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = duxmedical_iOS.entitlements; sourceTree = "<group>"; };
+		A7EFD29D3F99F01689B9E320 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB479DB88F632E994B1E7BAC /* duxmedical_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = duxmedical_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA716AA9987F3CEAEAE2992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C33128A79FF628E401B440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB8874402040909E5CD7A8D /* libapp.a in Frameworks */,
+				EFDA82F824360AD3B559D3B9 /* CoreGraphics.framework in Frameworks */,
+				A91E65ECFB7ADCCA80DD4A3A /* Metal.framework in Frameworks */,
+				D0D1E7577A1AD3F4006A6C92 /* MetalKit.framework in Frameworks */,
+				1A7625A3EFD057372D8AB57B /* QuartzCore.framework in Frameworks */,
+				3C88A96FE772EC896DE0B1EA /* Security.framework in Frameworks */,
+				BCF548301A62EE329DFFF430 /* UIKit.framework in Frameworks */,
+				6B9C24B532BFA66CAB4CB770 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0410E4B98E4193CB40356279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7EFD29D3F99F01689B9E320 /* CoreGraphics.framework */,
+				3C7535B3354D01CE567A6650 /* libapp.a */,
+				5335A3FAA742A949EE54BFC6 /* Metal.framework */,
+				4DE2F7C81F1B099125B7C33E /* MetalKit.framework */,
+				33745E3B220C9E433D300435 /* QuartzCore.framework */,
+				75BCD6BF1F5B8BD31460DC55 /* Security.framework */,
+				74789882F21CC89E2104D255 /* UIKit.framework */,
+				07BDDF2055A4AA8182E819DC /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		137DDB3DDC49CE8704A94013 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29F8FEFAE42C3F082FF09D05 /* duxmedical */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		26C7945DEE7E893005092662 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				5A85583B8FDD90DE19E23CC9 /* bindings.h */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		29F8FEFAE42C3F082FF09D05 /* duxmedical */ = {
+			isa = PBXGroup;
+			children = (
+				26FC436195DB003D8867C86F /* main.mm */,
+				26C7945DEE7E893005092662 /* bindings */,
+			);
+			path = duxmedical;
+			sourceTree = "<group>";
+		};
+		455B6127DC0CA1B78099EF4A /* arm64-sim */ = {
+			isa = PBXGroup;
+			children = (
+				8E782C2F3CB546A9031B69A5 /* debug */,
+			);
+			path = "arm64-sim";
+			sourceTree = "<group>";
+		};
+		469B7204A61FCD3CF8D63516 = {
+			isa = PBXGroup;
+			children = (
+				154FA0E17590AE8484D0D2C3 /* assets */,
+				DBA716AA9987F3CEAEAE2992 /* Assets.xcassets */,
+				0AEE46392322E4E582FF17FB /* LaunchScreen.storyboard */,
+				7F9CD90DAB29068F8B4B9F9D /* duxmedical_iOS */,
+				A6C8EE0782CDF6486ED82B96 /* Externals */,
+				137DDB3DDC49CE8704A94013 /* Sources */,
+				974CA5602EC2992B5C545568 /* src */,
+				0410E4B98E4193CB40356279 /* Frameworks */,
+				AA56B91AC40BF25AABE4D52B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9CD90DAB29068F8B4B9F9D /* duxmedical_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				96E11D0A26A7243DADC0DDE9 /* duxmedical_iOS.entitlements */,
+				1B7DCBE452DC59D1E6E788DF /* Info.plist */,
+			);
+			path = duxmedical_iOS;
+			sourceTree = "<group>";
+		};
+		8E782C2F3CB546A9031B69A5 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				8164D5184CC9E06B57747560 /* libapp.a */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		974CA5602EC2992B5C545568 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				382C7B3BC4643B8EEC242C9E /* lib.rs */,
+				61C94B0AF790E0226AC7CE29 /* main.rs */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		A6C8EE0782CDF6486ED82B96 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				455B6127DC0CA1B78099EF4A /* arm64-sim */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		AA56B91AC40BF25AABE4D52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB479DB88F632E994B1E7BAC /* duxmedical_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"TEMP_041E8C41-1025-45E1-AD9A-89F4160C095E" /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		"TEMP_E455A08A-DADE-4FD2-8842-6B00BCDEB972" /* x86_64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = x86_64;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C977DC8AF60BB02BB5DE97 /* duxmedical_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35893BE206EE220DB75B5970 /* Build configuration list for PBXNativeTarget "duxmedical_iOS" */;
+			buildPhases = (
+				B44B2F2AD8575E190FCA997D /* Build Rust Code */,
+				1683815E4288E37149A30D00 /* Sources */,
+				E3BD3B7266AAD0C9CE996C69 /* Resources */,
+				A9C33128A79FF628E401B440 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = duxmedical_iOS;
+			productName = duxmedical_iOS;
+			productReference = BB479DB88F632E994B1E7BAC /* duxmedical_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495796565BB04F74C1D0846A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 7000444E4F7D660090544013 /* Build configuration list for PBXProject "duxmedical" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 469B7204A61FCD3CF8D63516;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C977DC8AF60BB02BB5DE97 /* duxmedical_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3BD3B7266AAD0C9CE996C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5836D06E58519A483DDC258 /* Assets.xcassets in Resources */,
+				930D6657BC2FB2EF482059F8 /* LaunchScreen.storyboard in Resources */,
+				155973B5B3AE925276BDF3DF /* assets in Resources */,
+				7279789550394DF0A76CF297 /* libapp.a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B44B2F2AD8575E190FCA997D /* Build Rust Code */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Rust Code";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Externals/x86_64/${CONFIGURATION}/libapp.a",
+				"$(SRCROOT)/Externals/arm64/${CONFIGURATION}/libapp.a",
+				"$(SRCROOT)/Externals/arm64-sim/${CONFIGURATION}/libapp.a",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "npm run -- tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:-}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1683815E4288E37149A30D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041E498F992EE4E24567DF2E /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47FC15289589580A3C8F0C78 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+					"arm64-sim",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = duxmedical_iOS/duxmedical_iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64-sim x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = duxmedical_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64-sim/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/x86_64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duxmedical.app;
+				PRODUCT_NAME = duxmedical;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64  arm64-sim";
+			};
+			name = release;
+		};
+		8A1CD38E903D7FAF36C60597 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = release;
+		};
+		DC4437A3FB6A0AFA6DAD9A8F /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+					"arm64-sim",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = duxmedical_iOS/duxmedical_iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64-sim x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = duxmedical_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64-sim/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/x86_64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duxmedical.app;
+				PRODUCT_NAME = duxmedical;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64  arm64-sim";
+			};
+			name = debug;
+		};
+		E83437601AC3ACA435FE1F05 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35893BE206EE220DB75B5970 /* Build configuration list for PBXNativeTarget "duxmedical_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4437A3FB6A0AFA6DAD9A8F /* debug */,
+				47FC15289589580A3C8F0C78 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		7000444E4F7D660090544013 /* Build configuration list for PBXProject "duxmedical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83437601AC3ACA435FE1F05 /* debug */,
+				8A1CD38E903D7FAF36C60597 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495796565BB04F74C1D0846A /* Project object */;
+}

@@ -1,0 +1,7 @@
+@layer theme, components, base, utilities;
+
+/* @plugin "tailwindcss-animate"; */
+
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));

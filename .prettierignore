@@ -1,0 +1,8 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+src-tauri/
+public/
+.vscode
+pnpm-lock.yaml
