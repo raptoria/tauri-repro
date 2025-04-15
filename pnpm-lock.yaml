@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@duxmedical/d3':
-        specifier: 0.0.1-a.1737388450523
-        version: 0.0.1-a.1737388450523
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -326,9 +323,6 @@ packages:
   '@babel/types@7.27.0':
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
-
-  '@duxmedical/d3@0.0.1-a.1737388450523':
-    resolution: {integrity: sha512-jjIpmJclektQIfUCBMz+cKFtPku+9L9/uFTrNaKZGUDpx6Es16iUUBOd65AuxiU5Q5nSmTOQTkp15jcfW7ej9Q==, tarball: https://npm.pkg.github.com/download/@duxmedical/d3/0.0.1-a.1737388450523/a4750265b971a3c6effced6c464ac665973aa02e}
 
   '@emotion/is-prop-valid@1.2.2':
     resolution: {integrity: sha512-uNsoYd37AFmaCdXlg6EYD1KaPOaRWRByMCYzbKUX4+hhMfrxdVSelShywL4JVaAeM/eHUOSprYBQls+/neX3pw==}
@@ -3940,8 +3934,6 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
-
-  '@duxmedical/d3@0.0.1-a.1737388450523': {}
 
   '@emotion/is-prop-valid@1.2.2':
     dependencies:
